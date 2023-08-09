@@ -1,0 +1,36 @@
+body {
+  background-color: #eef;
+}
+
+nav > ul {
+  columns: 5;
+}
+
+nav > ul > li {
+  list-style: none;
+  border-bottom: 1px solid red;
+  max-width: max-content;
+  padding: 5px;
+}
+
+nav > ul > li:hover {
+  background-color: blue;
+  color: white;
+}
+
+nav > ul > li > button {
+  border-radius: 30px;
+  color: red;
+  list-style: none;
+  max-width: max-content;
+}
+nav > ul > li:last-child {
+  border-bottom: none;
+}
+nav > ul > li > button:hover {
+  background-color: blue;
+}
+
+ul > li:last-child:hover {
+  background-color: #eef;
+}
